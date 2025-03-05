@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Inter&family=Open+Sans&family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f1f2f4;
+  color: white;
+}
+
+main {
+  max-width: 1150px;
+  margin: auto;
+  padding: 32px 16px;
+}
+
+
+:where(.css-dev-only-do-not-override-k83k30)[class^="ant-typography"],
+:where(.css-dev-only-do-not-override-k83k30)[class*=" ant-typography"] {
+  font-family: Roboto;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+:where(.css-dev-only-do-not-override-k83k30)[class^="ant-col"],
+:where(.css-dev-only-do-not-override-k83k30)[class*=" ant-col"] {
+  font-family: Roboto, 'Helvetica Neue';
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.ant-typography {
+  color: rgba(0, 0, 0, .85);
+  font-family: revert;
+  overflow-wrap: break-word;
+}
+
+/* .ant-btn-dashed {
+  color: rgba(0, 0, 0, .85);
+  background: #fff;
+  border-color: #d9d9d9;
+  border-style: dashed;
+  border-radius: 0.5rem;
+} */
+
+.ant-select-show-search.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  cursor: text;
+  border-radius: 0.5rem !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+section.first {
+  margin: 48px 0 64px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 0;
+  position: relative;
+}
+
+
+.pr-2 {
+  padding-right: 8px;
+}
+
+.ul>li {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 40px;
+  border-radius: 1rem;
+}
+
+li>h4 {
+  white-space: pre-wrap;
+}
+
+.ul>li>h4 {
+  text-align: justify;
+}
+
+.ul-2>li {
+  padding: 4px 0;
+}
+
+.button-wrapper {
+  margin: 40px 0;
+}
+
+.tag-input {
+  width: 78px;
+  margin-right: 8px;
+  vertical-align: top;
+}
+
+.site-tag-plus {
+  background: #fff;
+  border-style: dashed;
+}
+
+#title {
+  font-size: 34px;
+}
+
+@media (max-width: 575.98px) {
+  #title {
+    font-size: 31px;
+  }
+}
+
+.header-logo {
+  width: 250px;
+  height: auto;
+}
+
+.dynamic-delete-button {
+  margin: 0 8px;
+  cursor: pointer;
+  position: relative;
+  top: 4px;
+  font-size: 24px;
+  color: #999;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.dynamic-delete-button:hover {
+  color: #333;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.top-right-delete-button {
+  position: absolute;
+  top: -17px;
+  right: -20px;
+}
+
+.example-enter,
+.example-appear {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active,
+.example-appear.example-appear-active {
+  opacity: 1;
+  -webkit-transition: opacity 500ms ease-in;
+  -o-transition: opacity 500ms ease-in;
+  -moz-transition: opacity 500ms ease-in;
+  transition: opacity 500ms ease-in;
+}
+
+.example-exit {
+  opacity: 1;
+}
+
+.example-exit.example-exit-active {
+  opacity: 0.01;
+  -webkit-transition: opacity 300ms ease-in;
+  -o-transition: opacity 300ms ease-in;
+  -moz-transition: opacity 300ms ease-in;
+  transition: opacity 300ms ease-in;
+}
+
+.margin-features {
+  margin-left: 10px;
+}
+
+/* .categoryOptions {
+  width: 100%;
+  height: 60%;
+  border: 0.01px solid #eee;
+  padding: 0 5px;
+  border-radius: 0.5rem;
+} */
+
+.ant-tag,
+.ant-tag a,
+.ant-tag a:hover {
+  color: rgba(0, 0, 0, .85);
+  border-radius: 0.7rem !important;
+  padding: 0 10px !important;
+}
+
+.ant-input {
+  border-radius: 0.5rem !important;
+}
+
+textarea.ant-input {
+  border-radius: 0.5rem !important;
+}
+
+.ant-typography h4,
+h4.ant-typography {
+  margin-bottom: 0.5em;
+  color: rgba(0, 0, 0, .85);
+  font-weight: 600;
+  font-size: 15px !important;
+  line-height: 1.4;
+}
+
+.div_AFF {
+  margin-top: 10px;
+}
+
+.filtersDiv h1,
+label,
+p,
+h3 {
+  color: black;
+}
+
+.AddDiv {
+  margin-top: 30px;
+}
+
+.note {
+  font-size: smaller;
+  color: #888;
+  margin-left: 5px;
+}
+
+.breadcrumb {
+  margin-bottom: 0;
+}
+
+
+:where(.css-dev-only-do-not-override-yp8pcc).ant-table-wrapper .ant-table-thead>tr>th,
+:where(.css-dev-only-do-not-override-yp8pcc).ant-table-wrapper .ant-table-thead>tr>td {
+  white-space: nowrap !important;
+}
+
+.css-1gibq2h {
+  overflow: auto;
+}
+
+:where(.css-dev-only-do-not-override-yp8pcc).ant-table-wrapper .ant-table-tbody>tr>th,
+:where(.css-dev-only-do-not-override-yp8pcc).ant-table-wrapper .ant-table-tbody>tr>td {
+  white-space: nowrap;
+}
+
+.case-aig b {
+  color: black;
+}
+
+.ant-tag-close-icon {
+  color: black !important;
+}
+
+
+
+@media (max-width: 575.98px) {
+  .main-bd {
+    margin-top: 7.5rem !important;
+  }
+
+  .d-mcq {
+    white-space: break-spaces;
+  }
+}
+
+
+
+
+/* @media (max-width: 767.98px) {
+  ...
+} */
+
+
+@media (max-width: 991.98px) {
+  .add-btn {
+    margin: 4px 44px;
+  }
+}
+
+.add-btn:hover{
+  background-color: lightgray!important;
+}
